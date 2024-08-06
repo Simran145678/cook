@@ -26,6 +26,16 @@ export default function Modal({ isVisible, onClose }) {
               https://dribbble.com/kaushal_ui
             </a>
           </span>
+          and you can view the Mock up @
+          <span>
+            <a
+              className="block text-orange-500 hover:underline"
+              href="https://dribbble.com/shots/21326864-Food-Recipe-Landing-page-UI"
+              target="_blank"
+            >
+              https://dribbble.com/shots/21326864-Food-Recipe-Landing-page-UI
+            </a>
+          </span>
         </p>
       </div>
     </div>
