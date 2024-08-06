@@ -19,3 +19,6 @@
 <li>Responsive design for all devices</li>
 <li>User-friendly UI with Tailwind CSS</li>
 </ul>
+
+<p>Check the live site here</p>
+https://main--cook-the-recipe-app.netlify.app/
