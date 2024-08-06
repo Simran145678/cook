@@ -15,7 +15,7 @@ export default function Home() {
 
   React.useEffect(() => {
     setIsModalVisible(true);
-  }, []);
+  }, [true]);
 
   const handleCloseModal = () => {
     setIsModalVisible(false);
@@ -58,7 +58,9 @@ export default function Home() {
   ];
   return (
     <>
-      <Modal isVisible={isModalVisible} onClose={handleCloseModal} />
+      {isModalVisible && (
+        <Modal isVisible={isModalVisible} onClose={handleCloseModal} />
+      )}
       <div>
         <HeroBanner
           para="From quick and easy meals to gourmet delights, we have something for

@@ -7,7 +7,7 @@ export default function Footer() {
   const date = new Date();
   return (
     <footer className="bg-black-default ">
-      <div className="container flex flex-col w-full justify-center items-center  text-white px-6 py-10">
+      <div className="flex flex-col w-full justify-center items-center  text-white py-10 container">
         <div className="w-full md:w-2/5 flex flex-col justify-center items-center py-4">
           <p className="font-bold text-3xl mr-auto ml-auto py-4">Cook.</p>
           <p className="text-center text-sm">
@@ -32,7 +32,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="h-px w-full bg-gray-600 "></div>
-      <div className="container w-full flex flex-col-reverse md:flex-row justify-between items-center md:items-end py-4 px-32 gradient text-white">
+      <div className="w-full flex flex-col-rev md:flex-row justify-between items-center md:items-end py-4 px-32 gradient text-white">
         <div>
           <small>Copyright &copy; {date.getFullYear()}</small>
         </div>
