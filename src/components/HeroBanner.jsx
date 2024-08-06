@@ -4,7 +4,7 @@ export default function HeroBanner({ children, para, link, img, varient }) {
   return (
     <>
       <div className="container flex flex-col-reverse md:flex-row p-10">
-        <div className=" flex flex-col  lg:p-16 justify-center">
+        <div className=" flex flex-col md:w-1/2 lg:w-auto lg:p-16 justify-center">
           {children}
           <p className="text-md text-gray-500 mb-6">{para}</p>
           <div>
@@ -13,7 +13,7 @@ export default function HeroBanner({ children, para, link, img, varient }) {
             </button>
           </div>
         </div>
-        <div className="lg:w-3/4 p-10 ">
+        <div className="md:w-1/2 lg:w-3/4 py-6 md:p-10 ">
           <img src={img} className={varient}></img>
         </div>
       </div>
