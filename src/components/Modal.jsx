@@ -36,6 +36,7 @@ export default function Modal({ isVisible, onClose }) {
               https://dribbble.com/shots/21326864-Food-Recipe-Landing-page-UI
             </a>
           </span>
+          Also, No text content on this website is correct.
         </p>
       </div>
     </div>
