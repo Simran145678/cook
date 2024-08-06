@@ -14,9 +14,9 @@ export default function Modal({ isVisible, onClose }) {
         </button>
         <h2 className="text-xl font-bold mb-4">Disclaimer</h2>
         <p>
-          This website showcase only my development skills. The UX design is
-          made by Kaushal Bodar. You can browse his work by clicking on the link
-          below.
+          Please note that all development work on this website was carried out
+          by me. The UX design belongs to Kaushal Bodar. You can browse his work
+          by clicking on the link below.
           <span>
             <a
               className="block text-orange-500 hover:underline"
