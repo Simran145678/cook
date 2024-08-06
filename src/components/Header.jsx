@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="container flex justify-between md:px-10 md:py-5 items-center relative">
       {/* For desktop screens */}
-      <div className="  w-1/4 hidden md:flex justify-center">
+      <div className="  w-1/6 hidden md:flex justify-center">
         <Link to="/">
           <p className="font-bold text-3xl mr-auto ml-auto">Cook.</p>
         </Link>
