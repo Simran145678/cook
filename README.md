@@ -22,3 +22,6 @@
 
 <p>Check the live site here</p>
 https://main--cook-the-recipe-app.netlify.app/
+
+<img width="1096" alt="Screenshot 2024-08-06 at 7 38 24 PM" src="https://github.com/user-attachments/assets/623570ba-aa3f-4f7d-8019-420514e284c4">
+
