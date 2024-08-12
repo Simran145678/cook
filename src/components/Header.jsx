@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBars } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -21,30 +21,55 @@ export default function Header() {
       </div>
       <nav className="w-1/2 hidden md:block">
         <ul className="flex justify-evenly ">
-          <li>
-            <Link to="/" className="hover:underline">
+          <li className="hover:underline">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "underline text-orange-500" : null
+              }
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
-          <li>
-            <Link to="/about" className="hover:underline">
+          <li className="hover:underline">
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "underline text-orange-500" : null
+              }
+            >
               About us
-            </Link>
+            </NavLink>
           </li>
-          <li>
-            <Link to="/recipes" className="hover:underline">
+          <li className="hover:underline">
+            <NavLink
+              to="/recipes"
+              className={({ isActive }) =>
+                isActive ? "underline text-orange-500" : null
+              }
+            >
               Recipes
-            </Link>
+            </NavLink>
           </li>
-          <li>
-            <Link to="contest" className="hover:underline">
+          <li className="hover:underline">
+            <NavLink
+              to="contest"
+              className={({ isActive }) =>
+                isActive ? "underline text-orange-500" : null
+              }
+            >
               Contest
-            </Link>
+            </NavLink>
           </li>
-          <li>
-            <Link to="blogs" className="hover:underline">
+          <li className="hover:underline">
+            <NavLink
+              to="blogs"
+              className={({ isActive }) =>
+                isActive ? "underline text-orange-500" : null
+              }
+            >
               Blogs
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
