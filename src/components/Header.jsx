@@ -21,51 +21,51 @@ export default function Header() {
       </div>
       <nav className="w-1/2 hidden md:block">
         <ul className="flex justify-evenly ">
-          <li className="hover:underline">
+          <li className="hover:font-bold">
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? "underline text-orange-500" : null
+                isActive ? " text-orange-500" : null
               }
             >
               Home
             </NavLink>
           </li>
-          <li className="hover:underline">
+          <li className="hover:font-bold">
             <NavLink
               to="/about"
               className={({ isActive }) =>
-                isActive ? "underline text-orange-500" : null
+                isActive ? " text-orange-500" : null
               }
             >
               About us
             </NavLink>
           </li>
-          <li className="hover:underline">
+          <li className="hover:font-bold">
             <NavLink
               to="/recipes"
               className={({ isActive }) =>
-                isActive ? "underline text-orange-500" : null
+                isActive ? " text-orange-500" : null
               }
             >
               Recipes
             </NavLink>
           </li>
-          <li className="hover:underline">
+          <li className="hover:font-bold">
             <NavLink
               to="contest"
               className={({ isActive }) =>
-                isActive ? "underline text-orange-500" : null
+                isActive ? " text-orange-500" : null
               }
             >
               Contest
             </NavLink>
           </li>
-          <li className="hover:underline">
+          <li className="hover:font-bold">
             <NavLink
               to="blogs"
               className={({ isActive }) =>
-                isActive ? "underline text-orange-500" : null
+                isActive ? " text-orange-500" : null
               }
             >
               Blogs
