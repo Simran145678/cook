@@ -12,7 +12,7 @@ export default function Modal({ isVisible, onClose }) {
         >
           &times;
         </button>
-        <h2 className="text-xl font-bold mb-4">Disclaimer</h2>
+        <h2 className="text-xl font-bold mb-4">Please Read</h2>
         <p>
           Please note that all development work on this website was carried out
           by me. The UX design belongs to Kaushal Bodar. You can browse his work
