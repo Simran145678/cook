@@ -14,7 +14,7 @@ export default function Card({
 }) {
   return (
     <div
-      className={`p-2 flex flex-col w-64 border border-gray-400 mx-2 rounded-xl group ${varient}`}
+      className={`p-2 flex flex-col w-64 border border-gray-400 bg-white mx-2 rounded-xl group ${varient}`}
     >
       <div className="w-full h-40">
         <img src={image} className="object-cover h-40 w-full rounded-xl"></img>
