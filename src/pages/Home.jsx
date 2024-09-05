@@ -33,7 +33,7 @@ export default function Home() {
   const tiles = [
     {
       image:
-        "https://shef.com/homemade-food/wp-content/uploads/thai-food01-scaled-e1662414525462.jpg",
+        "https://www.thaisenses.ca/wp-content/uploads/sites/31/2023/04/thai-cuisine-1024x614.jpg",
       title: "Thai Food",
     },
     {
