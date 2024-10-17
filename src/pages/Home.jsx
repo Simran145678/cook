@@ -37,7 +37,7 @@ export default function Home() {
       title: "Thai Food",
     },
     {
-      image: "https://india47.ca/wp-content/uploads/2023/08/1-1024x538.png",
+      image: "https://bombaypalace.ca/wp-content/uploads/2019/11/6.jpg",
       title: "Indian Cuizine",
     },
     {
