@@ -47,7 +47,7 @@ export default function Home() {
     },
     {
       image:
-        "https://www.hotelmousai.com/blog/wp-content/uploads/2021/12/Top-10-Traditional-Foods-in-Italy.jpg",
+        "https://www.realsimple.com/thmb/Zv-Os56GMOygduQYxBOvtP08MyI=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/italian-food-2000-465639d6117745278d67deebd968cd1e.jpg",
       title: "Italian Cuizine",
     },
     {
